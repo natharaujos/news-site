@@ -21,6 +21,15 @@ body {
     padding-top: 25px;
 }
 
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -76,37 +85,145 @@ body.fotos #navbar a#fotos {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: yellow;
 }
 
-#tres-colunas #primario {
+#primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
-
 
 #duas-colunas #primario {
     width: 555px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #uma-coluna #primario {
     width: 750px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
+    margin: auto;
 }
 
 #secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
+
+.caixa {
+    margin: 10px 0;
+    padding: 0 0 5px 0;
+    background: #f3f3f3;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudos {
+    background: #f3f3f3;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Formatando elementos da barra lateral */
+
+#lateral ul li a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 20px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* Fomratando formulários */
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 1px solid #870529;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/* Formatando imagem */
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatand cabeçalhos */ 
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+/* Formatando lista de notícias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 85px;
+}
+
+#lista-noticias li a img { 
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a { 
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 { 
+    font-size: 0.8em;
+    padding: 0;
+    color: #3a7ab9;
+}
+
+#lista-noticias li a p { 
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover { 
+    background: #eee;
+    cursor: pointer;
+}
+
+/*----------------------------*/
 
 #container-rodape {
     background: #294c71;
